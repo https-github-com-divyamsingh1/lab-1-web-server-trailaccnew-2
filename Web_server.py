@@ -4,7 +4,7 @@ from socket import *
 # Create a TCP server socket
 #(AF_INET is used for IPv4 protocols)
 #(SOCK_STREAM is used for TCP)
-serverPort=6789
+serverPort= 8080
 serverSocket = socket(AF_INET, SOCK_STREAM)
 
 #Prepare a sever socket
